@@ -10,4 +10,10 @@ def read():
         data = [line.strip().split(',') for line in a]
     return data
 
-print(read())
+def sort_area(data):
+    sorted_area = sorted(data, key=lambda x: int(x[1]), reverse=True)
+    return sorted_area
+
+
+# print(read())
+print(sort_area(read()))
