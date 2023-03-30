@@ -15,8 +15,8 @@ def sort_area(data):
     return sorted_area
 
 def sort_population(data):
-    sorted_area = sorted(data, key=lambda x: int(x[2]), reverse=True)
-    return sorted_area
+    sorted_population = sorted(data, key=lambda x: int(x[2]), reverse=True)
+    return sorted_population
 
 
 # print(read())
